@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Folder body outline / tab -->
+    <path
+        android:fillColor="#1E2A38"
+        android:pathData="M24,30 L42,30 L48,36 L84,36 C86.2,36 88,37.8 88,40 L88,76 C88,78.2 86.2,80 84,80 L24,80 C21.8,80 20,78.2 20,76 L20,34 C20,31.8 21.8,30 24,30 Z" />
+    <!-- Folder front flap -->
+    <path
+        android:fillColor="#121A24"
+        android:pathData="M20,44 L88,44 L88,76 C88,78.2 86.2,80 84,80 L24,80 C21.8,80 20,78.2 20,76 Z" />
+    <!-- Purposeful folder color dots along the top edge:
+         🔵 Music (#2563EB), 🟣 AI (#9333EA), 🟢 Approved (#16A34A),
+         🟠 WIP (#EA580C), 🔴 Archive (#DC2626), 🟡 Export (#EAB308) -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M30,36 A3,3 0 1,1 36,36 A3,3 0 1,1 30,36" />
+    <path
+        android:fillColor="#9333EA"
+        android:pathData="M39,36 A3,3 0 1,1 45,36 A3,3 0 1,1 39,36" />
+    <path
+        android:fillColor="#16A34A"
+        android:pathData="M48,36 A3,3 0 1,1 54,36 A3,3 0 1,1 48,36" />
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M57,36 A3,3 0 1,1 63,36 A3,3 0 1,1 57,36" />
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M66,36 A3,3 0 1,1 72,36 A3,3 0 1,1 66,36" />
+    <path
+        android:fillColor="#EAB308"
+        android:pathData="M75,36 A3,3 0 1,1 81,36 A3,3 0 1,1 75,36" />
+
+    <!-- File manager list preview lines with purposeful badges -->
+    <!-- Row 1: Music Blue -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M28,52 L32,52 L32,56 L28,56 Z" />
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M36,53 L62,53 L62,55 L36,55 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M68,53 L78,53 L78,55 L68,55 Z" />
+
+    <!-- Row 2: AI Generations Purple -->
+    <path
+        android:fillColor="#9333EA"
+        android:pathData="M28,60 L32,60 L32,64 L28,64 Z" />
+    <path
+        android:fillColor="#F3E8FF"
+        android:pathData="M36,61 L58,61 L58,63 L36,63 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M68,61 L78,61 L78,63 L68,63 Z" />
+
+    <!-- Row 3: Approved Green -->
+    <path
+        android:fillColor="#16A34A"
+        android:pathData="M28,68 L32,68 L32,72 L28,72 Z" />
+    <path
+        android:fillColor="#DCFCE7"
+        android:pathData="M36,69 L52,69 L52,71 L36,71 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M68,69 L78,69 L78,71 L68,71 Z" />
+</vector>

@@ -1,0 +1,7 @@
+{
+  "name": "Elyzareth File manager",
+  "description": "Mobile file manager with purposeful folder coloring, instant zero-dialog operations, and comprehensive inventory export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
