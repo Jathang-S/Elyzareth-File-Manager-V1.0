@@ -23,8 +23,8 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.DriveFileMove
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.DriveFileMove
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Fullscreen
 import androidx.compose.material.icons.filled.Info
@@ -314,7 +314,7 @@ fun SingleClickFileInfoSheet(
                     ) {
                         CommanderActionButton(
                             label = "MOVE",
-                            icon = Icons.Default.DriveFileMove,
+                            icon = Icons.AutoMirrored.Filled.DriveFileMove,
                             isActive = isMovePickerExpanded,
                             onClick = { isMovePickerExpanded = !isMovePickerExpanded },
                             modifier = Modifier.weight(1f),
@@ -484,7 +484,7 @@ fun SingleClickFileInfoSheet(
                     ) {
                         CommanderActionButton(
                             label = "MOVE",
-                            icon = Icons.Default.DriveFileMove,
+                            icon = Icons.AutoMirrored.Filled.DriveFileMove,
                             isActive = isMovePickerExpanded,
                             onClick = { isMovePickerExpanded = !isMovePickerExpanded },
                             modifier = Modifier.weight(1f),
@@ -566,7 +566,7 @@ fun SingleClickFileInfoSheet(
                     ) {
                         CommanderActionButton(
                             label = "MOVE",
-                            icon = Icons.Default.DriveFileMove,
+                            icon = Icons.AutoMirrored.Filled.DriveFileMove,
                             isActive = isMovePickerExpanded,
                             onClick = { isMovePickerExpanded = !isMovePickerExpanded },
                             modifier = Modifier.weight(1f),
